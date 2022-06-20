@@ -1,0 +1,178 @@
+:root{
+	--gn: green;
+	--og: orange;
+	--rd: red;
+	--bu: blue;
+}
+
+.div1{
+	width: 100px;
+	height: 80px;
+	background-color:var(--gn);
+						/*rotate(xy)*/
+	transform: rotate(10deg);
+}
+
+.div2{
+	width: 100px;
+	height: 80px;
+	background-color:var(--og);
+						/*rotate(xy)*/
+	transform: rotate(-10deg);
+}
+
+.div3{
+	width: 200px;
+	height: 80px;
+	background-color:var(--rd);
+
+	transform: rotateX(50deg);
+}
+
+.div4{
+	width: 200px;
+	height: 80px;
+	background-color:var(--bu);
+
+	transform: rotateY(50deg);
+}
+
+.div5{
+	width: 200px;
+	height: 80px;
+	background-color: var(--gn);
+					/*default(1)*/
+	transform: scale(0.76);
+}
+
+.div6{
+	width: 200px;
+	height: 80px;
+	background-color:var(--og);
+
+	transform: skew(30deg);
+	/*transform: skew(-30deg);*/
+
+}
+
+.div7{
+	width: 200px;
+	height: 80px;
+	background-color: var(--bu);
+						/*default = transform(x)*/
+	/*transform: translate(50%);*/
+	/*transform: translate(-50%);*/
+	/*transform: translate(100%);*/
+	/*transform: translate(-100%);*/
+
+	/*transform: translate(100px);;*/
+	/*transform: translate(-100px);*/
+	/*transform: translate(200px);*/
+	/*transform: translate(-200px);*/
+
+	/*transform: translateX(100%);*/
+
+	/*transform: translateY(100%);*/
+}
+
+
+.country{
+	font-size: 16px;
+
+	/*Vendor Prifix Properties*/
+
+	appearance: none;
+	
+	-webkit-appearance: none; /*Chrome safari opera*/
+
+	-moz-appearance: none; /*Mozilla firefox*/
+
+	padding: 10px 30px 10px 10px;
+
+	background-image: url('../img/downarrow.png');
+	background-repeat: no-repeat;
+	background-size: 15px;
+	background-position: right;
+	background-position-X: 95%;
+}
+
+h1{
+	text-align: center;
+}
+
+p.text{
+	text-align: center;
+}
+
+@media(max-width:600px){
+	h1{
+	font-size: 20px;
+	color:blue;
+	}
+
+	p.text{
+		color: green;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*fe
+wdf
+css animation
+l1
+l2
+l3
+bcj1
+bcj2
+bcj3
+js oop
+js oop project
+
+reactjs
+reactjs project 1
+reactjs project 2
+reactjs project 3
+
+vuejs
+
+be
+php
+laravel
+nodejs
+
+
+db
+mysql
+mysql project
+mongodb
+mongodb project
+
+
+server
+linux cmd
+aws
+
+
+python*/

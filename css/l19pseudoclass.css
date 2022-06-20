@@ -1,0 +1,120 @@
+/*Pseudo Class(:)*/
+
+.div1{
+	width: 300px;
+	height: 100px;
+	background: skyblue;
+}
+
+/*.div1:first-child{
+	background: pink;
+	border-radius: 20px;
+	cursor: pointer;
+}*/
+
+/*.div1:first-of-type{
+	background-color:blue ;
+}
+*/
+
+/*.div1:last-child{
+	background-color: yellow;
+}*/
+
+/*.div1:last-of-type{
+	background-color: blue;
+
+}*/
+
+/*.div1:nth-of-type(2){
+	background-color: dimgray;
+}*/
+
+
+/*.div1:nth-child(odd){
+	background-color: blue;
+}
+*/
+
+/*.div1:nth-child(even){
+	background-color: yellow;
+}
+*/
+
+/*.div1:nth-of-type(odd){
+	background-color: blue;
+*/
+
+/*.div1:nth-of-type(even){
+	background-color: yellow;*/
+
+
+/*.div1:first-child{
+	background: green;
+	border-radius: 20px;
+	cursor: pointer;
+}*/
+
+/*.div1:first-of-type{
+	background-color:blue ;
+}
+*/
+
+/*.div1:nth-child(odd){
+	background-color: yellow;
+}*/
+
+
+/*.div1:nth-of-type(odd){
+	background-color: blue;
+
+*/
+
+
+
+
+
+
+
+/*-----------------------------------------------*/
+
+/*lastchild = last one of child even <hr/>*/
+
+/*.div1:last-child{
+	
+	background-color: green;
+	border-radius: 20px;
+	cursor: pointer;
+}
+*/
+
+/*.div1:last-of-type{
+	background-color: green;
+	border-radius: 20px;
+	cursor: pointer;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*div1:hover{
+	cursor: pointer;
+	background-color: ornage;
+}*/
+
+
+/*ordinary number
+1st
+2nd
+3rd
+5th
+............n

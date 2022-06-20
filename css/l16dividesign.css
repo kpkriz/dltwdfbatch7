@@ -1,0 +1,84 @@
+.firstdiv{
+	width: 200px;
+	height: 200px;
+	/*background-color: greenyellow;*/
+	/*background-color: #32a852;*/
+	/*background-color: rgba(245, 40, 145, 0.8);*/
+
+	/*background: green;*/
+	/*background: #32a852;*/
+	background: rgba(245, 40, 145, 0.8);
+
+	color: #fff;
+	font-size: 20px;
+
+}
+
+.seconddiv{
+	width: 300px;
+	height: 300px;
+	/*background-image: url('./../img/cover/bg1.jpg');*/
+	background: url('./../img/cover/bg1.jpg'); /*background - color and image*/
+	
+	/*can't*/
+	/*background-color:url('./../img/cover/bg1.jpg') ;*/
+
+	/*background-repeat: no-repeat;*/
+	/*border: 1px solid green;*/
+	/*background-repeat: repeat-x;*/
+	/*background-repeat: repeat-y;*/
+	background-repeat: no-repeat;
+
+	background-position: center;
+
+	color: white;
+}
+
+.divthree{
+	width: 300px;
+	height: 300px;
+	border: 1px solid yellow;
+	
+	/*	(1) - linear-gradient
+	 	(2) - radial-gradient
+		
+	 */
+
+	/*background: linear-gradient(red, orange);*/
+	/*background: linear-gradient(#a89332,#a832a4);*/
+	/*background: linear-gradient(rgba(245, 40, 145, 0.8),rgba(142, 190, 136, 0.83));*/
+
+	/*background: linear-gradient(
+		red,
+		#a89332,
+		rgba(142, 190, 136, 0.83)
+	);*/
+
+	/*background: radial-gradient(red,orange);*/
+	/*background: radial-gradient(red,orange,blue,green)*/;
+	background: radial-gradient(
+		rgba(245, 40, 145, 0.8),
+		rgba(142, 190, 136, 0.83));
+
+}
+
+.divfour{
+	width: 250px;
+	height: 250px;
+
+	/*border: 2px solid red;
+	*/
+	/*background-image: radial-gradient(rgba(245, 40, 145, 0.8),rgba(142, 190, 136, 0.83)),url(./../img/cover/bg2.jpg);*/
+	
+	background-repeat: no-repeat;
+	
+	color: #fff;
+
+	background: linear-gradient(
+		-45deg, /*degree=first perimeter*/
+		red,
+		orange,
+		blue
+
+	);
+}

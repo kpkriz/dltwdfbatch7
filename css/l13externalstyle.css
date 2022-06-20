@@ -1,0 +1,47 @@
+/*Single selector*/
+
+h1{
+	color: blue;
+}
+
+/*gruop selector ==> [ , ]*/
+
+h2,h3,h4{
+	color: green;
+}
+
+/*id selector*/
+
+#myself,#mm{
+	color: blue;
+}
+
+#japu,span{
+	color: green;
+}
+
+/*Class selector*/
+
+.ph{
+	color: red;
+}
+
+.phone{
+	font-size: 30px;
+}
+
+#hay{
+	color: red;
+	font-size: 20px;
+}
+
+.hay{
+	color: green;
+	font-size: 20px;
+}
+
+div{
+	color: orange;
+	font-size: 20;
+}
+

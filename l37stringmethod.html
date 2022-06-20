@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>String Method</title>
+	<style type="text/css">
+		
+		/*#mm{
+			color: red;
+			font-size: 50px;
+		}
+
+		#th{
+			color: blue;
+			font-family: Arial;
+		}*/
+
+	</style>
+</head>
+<body>
+
+	<div>
+		<h1 id="mm">Myanmar</h1>
+		<h1 id="th">Thailand</h1>
+	</div>
+
+	<script>
+		//string method
+		let firstname = "Maung Maung";
+		let lastname = "Kyaw";
+		console.log(firstname);
+		console.log(lastname);
+		console.log(firstname.length);
+
+		//concat (string + )
+		let fullname = firstname+lastname;
+		console.log(fullname);
+
+		//append 
+		firstname += lastname;
+		console.log(firstname);
+
+		//concat()
+
+		var fstname = "Zayar ";
+		var lstname = "Kyaw";
+		var myname = fstname.concat(lstname);
+		console.log(myname);
+
+		//character array
+		console.log(myname.length);
+		console.log(myname[2])
+			// 10 - 1
+			//9
+		console.log(myname[myname.length-1]);
+		
+		//CharAt()
+		console.log(myname.charAt(2));
+			//10 - 1
+			//9
+		console.log(myname.charAt(myname.length-1));
+
+		//includes()
+		let fav = "My Fav color is black color";
+		console.log(fav);
+		// result = true
+		console.log(fav.includes("black"));
+		// result = false
+		console.log(fav.includes("red"));
+		// result = false
+		console.log(fav.includes("BLACK"));
+		// result = false
+		console.log(fav.includes("Black"));
+		//result = true
+		console.log(fav.includes("bla"));
+
+		//style
+		document.getElementById('mm').style.color = "green";
+		document.getElementById('mm').style.fontSize = "50px";
+
+		document.getElementById('th').style.color = "blue";
+		document.getElementById('th').style.fontFamily = "Arial";
+
+
+
+		//replace(old,new)
+		console.log(fav.replace("black","blue"));
+		console.log(fav.replace("bla","red"));
+		console.log(fav.replace("color","parpar"));
+
+		//substring(index,length)
+		console.log(fav.substring(0,10)+"...");
+		console.log(fav.substring(0,10).concat('.....'));
+
+		//change case
+		console.log(fav.toUpperCase());
+		console.log(fav.toLowerCase());
+
+
+	</script>
+
+</body>
+</html>

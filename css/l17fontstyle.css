@@ -1,0 +1,157 @@
+/*Universal selector*/
+
+*{
+	cursor: pointer;
+}
+
+/*1.Local font integrate*/
+
+/*
+ i.Local Machine Integrate
+ ii.Project Folder Integrate
+*/
+
+/*body{
+	font-family: Arial; 
+}*/
+
+/*"Time New Roman"*/
+/*
+.p1{
+	font-family: Arial;
+}
+
+.p2{
+	
+	priority ==> , , , , 
+	font-family: Century,Arial,"Time New Roman";  
+}*/
+
+/*2.Global font integrate*/
+
+/*i*/
+
+/*body{
+	font-family: 'Stick', sans-serif;
+}*/
+
+/*.p1{
+	font-family: 'Stick';
+}
+
+.p2{
+	font-family: 'Stick', sans-serif;
+}
+
+.p3{
+	font-family: 'Akaya Kanadaka', cursive;
+}*/
+
+	/*ii.project folder integrate*/
+
+/*at-rules*/
+
+ /*for stick*/
+@font-face{
+	font-family: Stick;
+	src: local('Stick-Regular'),url('../libs/fonts/stick/Stick-Regular.ttf') format('woff');
+}
+
+
+/*for akaya*/
+@font-face{
+	font-family: abc;
+	src: local('AkayaTelivigala-Regular'),url('../libs/fonts/akayatelivigala/AkayaTelivigala-Regular.ttf') format('woff');
+}
+
+
+/*body{
+	font-family: 'Stick', sans-serif;
+}*/
+
+.p1{
+	font-family: Stick;
+}
+
+.p2,.p3{
+	font-family: abc;
+}
+
+.p4{
+	font-family:Arial,Century;
+	/*font-weight: bold;
+	font-family: bolder;*/
+
+    /*100-900*/
+	/*font-weight: 600;*/
+
+	/*font-style: italic;*/
+
+	/*text-transform: uppercase;*/
+	/*text-transform: lowercase;*/
+	text-transform: capitalize;
+
+	/*text-indentation*/
+	text-indent: 50px;
+
+}
+
+.clickme{
+	text-decoration: none;
+	/*color: red*/;
+}
+
+.clickme:visited{
+	color: green;
+}
+
+.clickme:hover{
+	color: deepskyblue;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+.menutext{
+	font-family: Cambria;
+	text-decoration: none;
+	background-color: green;
+	color: #fff;
+	/*padding: 10px;*/
+
+			/*top   bottom    left right*/
+	/*padding: 10px 30px;*/
+
+		   /*top rihgt bottom left*/
+	/*padding: 10px 20px 30px 40px;*/
+
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+
+	border-radius: 10px;
+
+	/*1ms------------500ms--------------1000ms*/
+	/*transition: all 1s;*/
+	transition: background-color 2s,color 5s;
+}
+
+.menutext:hover{
+	background-color: deepskyblue;
+	color: #000;
+}
+
+
+.imgdegisn{
+	height: 80px;
+	width: 80px;
+
+	cursor: pointer;
+
+	transition: all 1s;
+}
+
+.imgdegisn:hover{
+	width: 100px;
+	height: 100px;
+}

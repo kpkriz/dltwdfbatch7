@@ -1,0 +1,46 @@
+.textalign{
+	/*text-align: left;*/
+	/*text-align: right;*/
+	/*text-align: center;*/
+	text-align: justify;
+}
+
+.textdecoration{
+	/*text-decoration: underline;*/
+	/*text-decoration: overline;*/
+	text-decoration: line-through;
+}
+
+a{
+	text-decoration: none;
+}
+
+.textline{
+	/*letter-spacing: 1px;*/
+	
+	/*line-height:50px;*/
+	/*line-height:2;*/
+	line-height: 200%;
+}
+
+.textshadow{
+	/*h v b c*/
+	/*horizontal vertical blur color*/
+
+	/*text-shadow:5px 0px 10px red;*/
+	/*text-shadow: -5px 0px 10px red;*/
+	
+	/*text-shadow: 0px 5px 10px deepskyblue;*/
+	/*text-shadow: 0px -5px 10px deepskyblue;*/
+	
+	/*text-shadow: 5px 5px 10px deepskyblue;*/
+	/*text-shadow: -5px -5px 10px deepskyblue;*/
+
+	/*text-shadow: 5px 5px 5px #fc03b1;*/
+	/*text-shadow: 5px 5px 5px rgba(245, 40, 185, 0.82);*/
+
+	text-shadow: 5px 0px 10px deepskyblue, -5px 0px 10px red, 5px -10px 10px yellowgreen ;
+}
+
+
+

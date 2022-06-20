@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Array Method</title>
+</head>
+<body>
+
+	<script type="text/javascript">
+
+		let arrcolors = ['red', 'black', 'orange', 'tomato', 'violet'];
+
+		console.log(arrcolors);
+		console.log(arrcolors.length);
+		console.log(arrcolors[3]);
+		console.log(arrcolors.indexOf("violet"));
+
+		//Character array in js
+		let myfriend = "Aung Kyaw Kyaw";
+
+		console.log(Array.isArray(arrcolors));
+		console.log(Array.isArray(myfriend));
+
+		console.log(arrcolors);
+		console.log("Array to string by toString = " + arrcolors.toString());
+		console.log("Array to string by toString = " + arrcolors.join("*"));
+
+
+		const n = ["red", "black", "green", "silver"];
+		n[4] = "blue";
+		n[1] = "pink";
+		console.log(n);
+
+		//Add new value to array (add to the end)
+		n.push("gold");
+		n.push("orange");
+		n.push("violet", "white");
+		console.log(n);
+
+		//Add new value to array (add to the front)
+		n.unshift("tomato");
+		n.unshift("skyblue", "grey");
+		console.log(n);
+
+		//Remove value and index (take off from front)
+		n.shift();
+		n.shift();
+		console.log(n);
+
+		//Remove value and index (take off from end)
+		n.pop();
+		console.log(n);
+
+		//Remove only value
+		delete n[2];
+		console.log(n);
+		console.log(n.length);
+		console.log( n[2]);
+
+		//splice(index , length(space))
+		let q = n.splice(1,5);
+		console.log(q);
+		console.log(q.length);
+
+		//Array Combine
+		const arr1 = ["Aung Aung" , "Zaw Zaw", "Mg Mg", "Kyaw Kyaw"];
+		const arr2 = ["Su Su" , "Yu Yu", "Nu Nu", "Lu Lu"];
+		const arr3 = [100 , 200, 300, 400];
+
+		console.log(arr1 + arr2); //ok but string
+
+		console.log(arr1.concat(arr2));
+		console.log(arr2.concat(arr1));
+		console.log(arr1.concat(arr1));
+		console.log(arr1.concat(arr3));
+
+		//Array Sorting
+		const arr4 = arr1.concat(arr2);
+		console.log(arr4);
+		console.log(arr4[3]);
+
+		//A to Z
+		console.log(arr4.sort());
+		console.log(arr4);
+		//console.log(arr4[3]);
+
+		//Reverse
+		console.log(arr4.reverse());
+		console.log(arr4);
+
+		const arr5 = [700,200,100,50,150,10,5,7,6,600];
+		// console.log(arr5.sort());
+		
+	</script>
+
+
+</body>
+</html>

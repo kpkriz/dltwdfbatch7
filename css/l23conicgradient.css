@@ -1,0 +1,200 @@
+.containerone .circle1{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background:conic-gradient(
+		yellow,
+		red, 
+		green,
+		pink
+		) ;
+}
+
+.containerone .circle2{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background:conic-gradient(
+		#32a852,
+		#a83232, 
+	    #c9bf32
+
+		) ;
+}
+
+.containerone .circle3{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background:conic-gradient(
+		rgba(15,35,127,1.00), 
+		rgba(226,31,127,1.00), 
+		rgba(238,221,127,1.00)
+		) ;
+}
+
+.containerone .circle4{
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	background:conic-gradient(
+		#32a852 40%,
+		#a83232 0% 60%, 
+	    #c9bf32 0%
+
+		) ;
+}
+
+.containertwo{
+	width: 600px;
+	height: 300px;
+	background-color: green;
+
+	display: flex;
+	justify-content: center; /*hz center*/
+	align-items: center; /*vt center*/
+	position: relative;
+}
+
+.containertwo .c1{
+	width: 300px;
+	height: 300px;
+	background-color: black;
+	border-radius: 50%;
+	position: absolute; /*Note-position absolute pr yin top bottom left right*/ 
+	/*top: 0;*/
+
+	z-index: 1;
+	/*z-index: 4;*/
+}
+
+.containertwo .c2{
+	width: 320px;
+	height: 320px;
+	/*background-color: blue;*/
+	/*background: linear-gradient(red,orange);*/
+	background: conic-gradient(
+		red,
+		violet 30%,
+		red 0%,
+		blue 70%,
+		red 0%,
+		yellow
+		);
+	border-radius: 50%;
+	position: absolute;
+
+
+
+
+	/*left: 0;
+	top: 0;*/
+
+	/*z-index: -1;*/
+	/*z-index: 3;*/
+}
+
+.pointercontainer{
+	width: 20px;
+	height: 200px;
+	/*background-color: grey;*/
+
+	position: absolute;
+	top: -50px;
+
+	z-index: 2;
+
+	animation-name: myani ;
+	animation-duration: 5s;
+	animation-iteration-count: infinite; 
+	animation-timing-function: linear; /*အချိန်ညီအောင်လုပ်တာ*/
+
+	transform-origin: bottom; /* ဘယ်ကိုဗဟိုပြုမလဲရွေးတာ*/
+	 /*defaultကcenterဖြစ်နေတော့ bottomပြောင်းတာ*/
+
+}
+
+.pointer{
+	width: 20px;
+	height: 20px;
+	background: red;
+
+	display: block;
+	border-radius: 50%;
+}
+ 			
+ 			/*animationname*/
+@keyframes myani{
+
+	from{
+		transform: rotate(0deg);
+	}
+
+	to{
+		/*transform: rotate(360deg);*/
+		transform: rotate(-360deg);
+	}
+
+}
+
+/*
+.containerthree{
+	width: 600px;
+	height: 300px;
+	background-color: green;
+
+	display: flex;
+	justify-content: center;*//*hz center*/
+	/*align-items: center;/*vt center*/
+
+/*	position: relative;
+}*/
+
+/*.containerthree .c3{
+	width: 300px;
+	height: 300px;
+	background-color: black;
+	border-radius: 50%;
+
+	position: absolute;
+
+	z-index: 1;*/
+	/*elementတွေကိုအရှေအနောက်စီတာ*/
+/*	
+}
+
+.containerthree .c4{
+	width: 320px;
+	height: 320px;*/
+	/*background-color: blue;*/
+	/*background: conic-gradient(
+		red,
+		blueviolet 30%,
+		aqua 0%,
+		orange 70%,
+		blue 0%,
+		yellow
+	);
+	border-radius: 50%;
+
+	position: absolute;
+
+
+	
+}*/
+
+
+/*position absolute ပါတာနဲ့ top, bottom, left, right တွေ သုံးလို့ရပြီ*/
+
+
+/*.pointercontainer2{
+
+}
+
+.pointer2{
+	width: 20px;
+	height: 20px;
+	background-color: red;
+
+	display: block;
+}*/

@@ -1,0 +1,64 @@
+.bdstyle1{
+	border-style: solid;
+}
+
+.bdstyle2{
+	border-style: double;
+}
+
+.bdstyle3{
+	border-style: dotted;
+}
+
+.bdstyle4{
+	border-style: dashed;
+}
+
+.bdstyle5{
+	border-style: inset;
+}
+
+.bdstyle6{
+	border-style: outset;
+}
+
+.bordersign{
+	height: 300px;
+	width: 300px;
+	/*background: red;*/
+	/*background: yellow;*/
+	
+	background-color: orange;	
+	
+	/*border-radius: 50px;*/
+
+	/*border-radius: 40%;*/
+	/*border-radius: 100%;*/
+
+	border-radius: 50px 20px 50px 100px;
+
+	/*SSC*/
+	/*stroke style color*/
+
+	border: 3px dashed blue;
+
+}
+
+li{
+	/*list-style-type: circle;*/
+	/*list-style-type: square;*/
+	
+	/*list-style-type: none;*/
+	/*list-style: none;*/
+
+	list-style-type: decimal-leading-zero;
+
+	/*border: 2px solid deepskyblue;*/
+
+	/*border: 1px;
+	border-style: solid;
+	border-color: deeppink;*/
+
+	list-style-position: inside;
+
+}
